@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    Contact Page
+    <div class="ContactCard" id="ContactCard__Bar">
+        <h1 class="ContactCard__Name" id="ContactCard__Name__1">Suman Balakrishnan</h1>
+        <p class="ContactCard__Role" id="ContactCard__Role__2">Delivery Manager</p>
+        <a href="index.html" class="ContactCard__Home">Home</a>
+    </div>
+
+    <div>
+        <form class="ContactForm">
+            <table border:none class="Contact__Table">
+                <tr class="Contact__Table__Row1">
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                </tr>
+                <tr class="Contact__Table__Row2">
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter Email"></td>
+                </tr>
+                <tr class="Contact__Table__Row3">
+                    <td style="vertical-align: auto;">Message</td>
+                    <td><textarea style="width: auto;" placeholder="Enter Message"></textarea></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <div class="ContactBottomCard" id="ContactBottomCard__Bar">
+        <p class="ContactBottomCard__Text" id="ContactBottomCard__Text__1">Please refer my profile here:
+            <a class="ContactBottomCard_Link" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+    </div>
 </body>
+
 </html>
