@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.ContactCard {
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.ContactCard__Name {
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ContactCard__Role {
+    color: white;
+    padding-left: 10px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.ContactCard__Home {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 50;
+    font-size: small;
+    font-style: normal;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.ContactCard__Home:hover {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: small;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+}
+
+.ContactBottomCard {
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.ContactBottomCard__Text {
+    color: white;
+    padding-left: 10px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+}
+
+.ContactBottomCard_Link {
+    color: aqua;
+    padding-left: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+}
+
+.Contact__Table {
+    padding: 20px;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+    width: 100px;
+
+}
+
+.ContactForm input,
+.ContactForm textarea {
+    margin: 20px;
+    border: none;
+    border-bottom: solid black 1px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.ContactForm input:hover,
+.ContactForm textarea:hover {
+    margin: 20px;
+    border: none;
+    border-bottom: solid red 1px;
+    font-family: "Poppins", sans-serif;
+
+}
