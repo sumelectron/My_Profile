@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.TopCard {
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.TopCard__Name {
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.TopCard__Role {
+    color: white;
+    padding-left: 10px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.TopCard__Contact {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 50;
+    font-size: small;
+    font-style: normal;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.TopCard__Contact:hover {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: small;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+}
+
+.AboutMe__Details {
+    color: black;
+    padding: 5px;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 30px 20px 30px 20px;
+}
+
+.BottomCard {
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.BottomCard__Text {
+    color: white;
+    padding-left: 10px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+}
+
+.BottomCard_Link {
+    color: aqua;
+    padding-left: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+}
+
+.MyInterests {
+    background-color: orange;
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 33%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.MyInterests__Heading {
+    padding-left: 5px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+
+}
+
+.MyInterests__ListItem {
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    list-style: none;
+}
+
+.MyProjects {
+    background-color: violet;
+    display: inline-block;
+    margin-left: 5px;
+    padding-right: 33%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.MyProjects__Heading {
+    padding-left: 5px;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+
+}
+
+.MyProjects__ListItem {
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100px;
+    list-style: none;
+
+}
